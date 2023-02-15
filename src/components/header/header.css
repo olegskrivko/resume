@@ -1,0 +1,26 @@
+header {
+  z-index: 99;
+  background-color: #121212;
+}
+header .container .header-wrapper nav {
+  margin: 0 auto;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 20px 0;
+}
+header .container .header-wrapper nav a {
+  color: #ffffff;
+  margin: 5px 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: ease-in 0.3s;
+}
+header .container .header-wrapper nav a:hover {
+  color: #cc6600;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */

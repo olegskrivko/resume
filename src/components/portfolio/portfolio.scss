@@ -1,0 +1,76 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.portfolio img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(50%);
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-item-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #969696;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px #121212;
+}
+
+.portfolio-item-footer {
+  background-color: #231e1a;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0rem;
+  font-weight: 600;
+}
+
+.portfolio-git-btn,
+.portfolio-demo-btn {
+  border: none;
+  color: #915b26;
+  background-color: #121212;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  width: 6rem;
+  font-size: 0.8rem;
+  transition: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.portfolio-git-btn:hover,
+.portfolio-demo-btn:hover {
+  color: #cc6600;
+}
+
+.portfolio-git-btn:hover,
+.portfolio-demo-btn:hover {
+  .code-effect {
+    // color: transparent;
+    // text-shadow: 0 0 0 rgb(0, 128, 0);
+    color: #fe9e3d;
+    text-shadow: 0px 0px 3px #faa855;
+    transition: 0.3s;
+  }
+}
+
+.portfolio-git-btn:focus,
+.portfolio-demo-btn:focus {
+  color: #cc6600;
+  outline-color: #343434;
+  outline-style: solid;
+  outline-width: 1px;
+}

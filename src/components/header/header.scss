@@ -1,0 +1,30 @@
+header {
+  z-index: 99;
+  background-color: #121212;
+  .container {
+    .header-wrapper {
+      nav {
+        margin: 0 auto;
+        width: max-content;
+        padding: 20px 0;
+
+        a {
+          color: #ffffff;
+          margin: 5px 10px;
+          text-decoration: none;
+          font-size: 1rem;
+          transition: ease-in 0.3s;
+        }
+        a:hover {
+          color: #cc6600;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
+}
