@@ -4,7 +4,9 @@ import dashboard from "../../assets/dashboard.png";
 import weatherapp from "../../assets/weatherapp.png";
 import calculator from "../../assets/calculator.png";
 import todo from "../../assets/todo.png";
-import rps from "../../assets/rps.png";
+import cooking from "../../assets/cooking.jpg";
+import animals from "../../assets/animals.jpg";
+import resume from "../../assets/resume.jpg";
 
 function Items() {
   const portfolioItems = [
@@ -33,10 +35,22 @@ function Items() {
       demoUrl: "https://inspiring-cat-709f47.netlify.app/",
     },
     {
-      name: "Rock Paper Scissors",
-      imgSrc: rps,
-      gitUrl: "https://github.com/olegskrivko/rps",
-      demoUrl: "https://olegskrivko.github.io/rps/",
+      name: "Cooking Recipes",
+      imgSrc: cooking,
+      gitUrl: "https://github.com/olegskrivko/cookingapp",
+      demoUrl: "https://gentle-pink-hospital-gown.cyclic.app/api/recipes",
+    },
+    {
+      name: "Animal Search",
+      imgSrc: animals,
+      gitUrl: "https://github.com/olegskrivko/animalsearch",
+      demoUrl: "https://weak-teal-piglet-kit.cyclic.app/pets",
+    },
+    {
+      name: "Resume",
+      imgSrc: resume,
+      gitUrl: "https://github.com/olegskrivko/resume",
+      demoUrl: "https://olegskrivko.netlify.app/",
     },
   ];
 
