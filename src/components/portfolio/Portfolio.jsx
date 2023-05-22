@@ -7,6 +7,7 @@ import todo from "../../assets/todo.png";
 import cooking from "../../assets/cooking.jpg";
 import animals from "../../assets/animals.jpg";
 import resume from "../../assets/resume.jpg";
+import shoppingcart from "../../assets/shoppingcart.jpg";
 
 function Items() {
   const portfolioItems = [
@@ -51,6 +52,12 @@ function Items() {
       imgSrc: resume,
       gitUrl: "https://github.com/olegskrivko/resume",
       demoUrl: "https://olegskrivko.netlify.app/",
+    },
+    {
+      name: "Shopping Cart",
+      imgSrc: shoppingcart,
+      gitUrl: "https://github.com/olegskrivko/react-shop",
+      demoUrl: "https://react-shop-cart-prj.netlify.app/",
     },
   ];
 
