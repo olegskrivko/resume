@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import dashboard from "../../assets/dashboard.png";
+//import dashboard from "../../assets/dashboard.png";
 import weatherapp from "../../assets/weatherapp.png";
-import calculator from "../../assets/calculator.png";
+//import calculator from "../../assets/calculator.png";
 import todo from "../../assets/todo.png";
 import cooking from "../../assets/cooking.jpg";
 import animals from "../../assets/animals.jpg";
