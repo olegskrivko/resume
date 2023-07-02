@@ -30,10 +30,10 @@ function Items() {
       demoUrl: "https://gentle-pink-hospital-gown.cyclic.app/api/recipes",
     },
     {
-      name: "PawPrint",
+      name: "PawClix",
       imgSrc: animals,
       gitUrl: "https://github.com/olegskrivko/pawprint",
-      demoUrl: "https://pawprint.cyclic.app",
+      demoUrl: "https://pawclix.cyclic.app",
     },
     {
       name: "Resume",
