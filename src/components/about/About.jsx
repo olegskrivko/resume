@@ -8,13 +8,12 @@ const About = () => {
         <h2 className="section-title">About me</h2>
         <div className="about-wrapper">
           <p className="about-text">
-            I am a software engineer with diverse experience, eager to learn and
-            expand my skillset continuously. I have experience in multiple
-            programming languages and I am seeking opportunities to grow and
-            specialize in frontend development. My goal is to leverage my skills
-            and expertise in JavaScript, HTML, CSS, React, and other
-            technologies to create user-friendly and responsive web applications
-            that enhance the user experience.
+            I am an experienced software engineer with a diverse background and
+            a strong desire to transition into frontend development. My previous
+            work has provided me with a solid foundation in programming concepts
+            and problem-solving skills. I am actively seeking opportunities to
+            specialize in frontend development and apply my expertise to create
+            engaging and user-friendly web applications.
           </p>
         </div>
       </section>
