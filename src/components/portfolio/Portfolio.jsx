@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 //import dashboard from "../../assets/dashboard.png";
-import weatherapp from "../../assets/weatherapp.png";
+// import weatherapp from "../../assets/weatherapp.png";
 //import calculator from "../../assets/calculator.png";
 import todo from "../../assets/todo.png";
 import cooking from "../../assets/cooking.jpg";
@@ -11,12 +11,12 @@ import shoppingcart from "../../assets/shoppingcart.jpg";
 
 function Items() {
   const portfolioItems = [
-    {
-      name: "Weather App",
-      imgSrc: weatherapp,
-      gitUrl: "https://github.com/olegskrivko/weather",
-      demoUrl: "https://olegskrivko.github.io/weather/",
-    },
+    // {
+    //   name: "Weather App",
+    //   imgSrc: weatherapp,
+    //   gitUrl: "https://github.com/olegskrivko/weather",
+    //   demoUrl: "https://olegskrivko.github.io/weather/",
+    // },
     {
       name: "To-Do",
       imgSrc: todo,
@@ -27,13 +27,13 @@ function Items() {
       name: "Cooking Recipes",
       imgSrc: cooking,
       gitUrl: "https://github.com/olegskrivko/cookingapp",
-      demoUrl: "https://gentle-pink-hospital-gown.cyclic.app/api/recipes",
+      demoUrl: "https://cooking.cyclic.cloud ",
     },
     {
       name: "PawClix",
       imgSrc: animals,
       gitUrl: "https://github.com/olegskrivko/pawprint",
-      demoUrl: "https://pawclix.cyclic.app",
+      demoUrl: "https://www.pawclix.com",
     },
     {
       name: "Resume",
