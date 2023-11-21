@@ -1,51 +1,40 @@
 import React from "react";
 import "./portfolio.css";
-//import dashboard from "../../assets/dashboard.png";
-// import weatherapp from "../../assets/weatherapp.png";
-//import calculator from "../../assets/calculator.png";
 import todo from "../../assets/todo.png";
 import cooking from "../../assets/cooking.jpg";
 import animals from "../../assets/animals.jpg";
-import resume from "../../assets/resume.jpg";
 import shoppingcart from "../../assets/shoppingcart.jpg";
 
 function Items() {
   const portfolioItems = [
-    // {
-    //   name: "Weather App",
-    //   imgSrc: weatherapp,
-    //   gitUrl: "https://github.com/olegskrivko/weather",
-    //   demoUrl: "https://olegskrivko.github.io/weather/",
-    // },
     {
-      name: "To-Do",
+      name: "Find Your Pet",
+      imgSrc: animals,
+      gitUrl: "https://github.com/olegskrivko/pawprint",
+      demoUrl: "https://pawclix.cyclic.app",
+      isAvailable: true,
+    },
+    {
+      name: "To-Do App",
       imgSrc: todo,
       gitUrl: "https://github.com/olegskrivko/todo",
-      demoUrl: "https://inspiring-cat-709f47.netlify.app/",
+      demoUrl: "https://react-to-do-local-storage.netlify.app/",
+      isAvailable: true,
     },
     {
       name: "Cooking Recipes",
       imgSrc: cooking,
       gitUrl: "https://github.com/olegskrivko/cookingapp",
-      demoUrl: "https://cooking.cyclic.cloud ",
+      demoUrl: "https://cooking.cyclic.app",
+      isAvailable: false,
     },
-    {
-      name: "PawClix",
-      imgSrc: animals,
-      gitUrl: "https://github.com/olegskrivko/pawprint",
-      demoUrl: "https://www.pawclix.com",
-    },
-    {
-      name: "Resume",
-      imgSrc: resume,
-      gitUrl: "https://github.com/olegskrivko/resume",
-      demoUrl: "https://olegskrivko.netlify.app/",
-    },
+
     {
       name: "Shopping Cart",
       imgSrc: shoppingcart,
       gitUrl: "https://github.com/olegskrivko/react-shop",
       demoUrl: "https://react-shop-cart-prj.netlify.app/",
+      isAvailable: true,
     },
   ];
 
@@ -65,15 +54,18 @@ function Items() {
               <span className="code-effect">&lt;</span> GITHUB
               <span className="code-effect"> /&gt;</span>
             </a>
-            <a
-              href={`${item.demoUrl}`}
-              className="portfolio-demo-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="code-effect">&lt;</span> DEMO
-              <span className="code-effect"> /&gt;</span>
-            </a>
+
+            {item.isAvailable && (
+              <a
+                href={`${item.demoUrl}`}
+                className="portfolio-demo-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="code-effect">&lt;</span> DEMO
+                <span className="code-effect"> /&gt;</span>
+              </a>
+            )}
           </div>
         </div>
       ))}

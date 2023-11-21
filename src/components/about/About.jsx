@@ -9,11 +9,11 @@ const About = () => {
         <div className="about-wrapper">
           <p className="about-text">
             I am an experienced software engineer with a diverse background and
-            a strong desire to transition into frontend development. My previous
-            work has provided me with a solid foundation in programming concepts
-            and problem-solving skills. I am actively seeking opportunities to
-            specialize in frontend development and apply my expertise to create
-            engaging and user-friendly web applications.
+            a strong desire to transition into web development. My previous work
+            has provided me with a solid programming and problem-solving skills.
+            I am actively seeking opportunities to specialize in frontend
+            development and apply my expertise to create engaging and
+            user-friendly web applications.
           </p>
         </div>
       </section>
